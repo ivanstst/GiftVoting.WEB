@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-
-namespace GiftVoting.WEB.Data
+namespace GiftVoting.Infrastructure.Identity
 {
     public class ApplicationDbContext : IdentityDbContext
     {

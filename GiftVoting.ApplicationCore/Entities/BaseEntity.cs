@@ -2,12 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GiftVoting.CORE
+namespace GiftVoting.ApplicationCore.Entities
 {
-    public class Gift
+    public class BaseEntity
     {
         public int Id { get; set; }
-
-        public int Name { get; set; }
     }
 }

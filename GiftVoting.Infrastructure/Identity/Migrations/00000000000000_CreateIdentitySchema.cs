@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace GiftVoting.WEB.Data.Migrations
+namespace  GiftVoting.Infrastructure.Identity.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {
